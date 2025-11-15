@@ -1,5 +1,5 @@
-<h1><img width="40" height="40" alt="pokemon_icon" src="https://github.com/user-attachments/assets/99f3f960-7680-4869-a482-c62571454d72"/>
-Pokédex - HTML, CSS (Tailwind) & JavaScript</h1>
+<h1><img width="20" height="20" alt="pokemon_icon" src="https://github.com/user-attachments/assets/99f3f960-7680-4869-a482-c62571454d72"/>
+Pokédex <img width="20" height="20" alt="pokemon_icon" src="https://github.com/user-attachments/assets/99f3f960-7680-4869-a482-c62571454d72"/></h1>
 
 
 <p>Uma Pokédex interativa desenvolvida com HTML, CSS (Tailwind) e JavaScript, utilizando a PokéAPI para buscar informações dos Pokémons.
