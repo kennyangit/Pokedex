@@ -7,8 +7,8 @@ Pokédex - HTML, CSS (Tailwind) & JavaScript</h1>
 
 <hr>
 
-<h3>🔗 Acesse o site</h3>
-https://www.site.com
+<h3> Acesse o site</h3>
+🔗 https://kennyangit.github.io/Pokedex/
 
 ##
 
