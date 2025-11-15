@@ -14,6 +14,8 @@ https://www.site.com
 
 <h3>📸 Preview</h3>
 
+<img width="1920" height="977" alt="exemplo site pokedex" src="https://github.com/user-attachments/assets/0d03a61e-b124-4a4d-b3f6-341e5cdda396" />
+
 ##
 
 <h3>🚀 Funcionalidades</h3>
