@@ -14,7 +14,10 @@ Pokédex - HTML, CSS (Tailwind) & JavaScript</h1>
 
 <h3>📸 Preview</h3>
 
-<img width="1920" height="977" alt="exemplo site pokedex" src="https://github.com/user-attachments/assets/0d03a61e-b124-4a4d-b3f6-341e5cdda396" />
+<img width="1918" height="951" alt="exemplo site pokedex claro" src="https://github.com/user-attachments/assets/28ce5e0d-d79d-4427-8b62-9ac175a76c7b" />
+
+<img width="1920" height="951" alt="exemplo site pokedex" src="https://github.com/user-attachments/assets/b3b4a945-588a-455e-80a6-bbc451b38501" />
+
 
 ##
 
