@@ -1,5 +1,5 @@
-<h1><img width="40" height="40" alt="pokemon_icon" src="https://github.com/user-attachments/assets/99f3f960-7680-4869-a482-c62571454d72"/>
-Pokédex - HTML, CSS (Tailwind) & JavaScript</h1>
+<h1><img width="20" height="20" alt="pokemon_icon" src="https://github.com/user-attachments/assets/99f3f960-7680-4869-a482-c62571454d72"/>
+Pokédex <img width="20" height="20" alt="pokemon_icon" src="https://github.com/user-attachments/assets/99f3f960-7680-4869-a482-c62571454d72"/></h1>
 
 
 <p>Uma Pokédex interativa desenvolvida com HTML, CSS (Tailwind) e JavaScript, utilizando a PokéAPI para buscar informações dos Pokémons.
@@ -7,14 +7,17 @@ Pokédex - HTML, CSS (Tailwind) & JavaScript</h1>
 
 <hr>
 
-<h3>🔗 Acesse o site</h3>
-https://www.site.com
+<h3> Acesse o site</h3>
+🔗 https://kennyangit.github.io/Pokedex/
 
 ##
 
 <h3>📸 Preview</h3>
 
-<img width="1920" height="977" alt="exemplo site pokedex" src="https://github.com/user-attachments/assets/0d03a61e-b124-4a4d-b3f6-341e5cdda396" />
+<img width="1918" height="951" alt="exemplo site pokedex claro" src="https://github.com/user-attachments/assets/28ce5e0d-d79d-4427-8b62-9ac175a76c7b" />
+
+<img width="1920" height="951" alt="exemplo site pokedex" src="https://github.com/user-attachments/assets/b3b4a945-588a-455e-80a6-bbc451b38501" />
+
 
 ##
 
