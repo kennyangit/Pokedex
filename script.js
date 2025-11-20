@@ -1,3 +1,4 @@
+const loading = document.getElementById("loading");
 const list = document.getElementById('pokemon-list');
 const filter = document.getElementById('filter');
 const search = document.getElementById('search');
@@ -64,6 +65,8 @@ async function loadPokemon() {
             types: data.types.map(t => t.type.name)
         });
     }
+
+    loading.style.display = "none";
 
     renderPokemon(allPokemon);
 }
