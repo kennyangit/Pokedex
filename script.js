@@ -33,15 +33,15 @@ darkToggle.addEventListener("click", () => {
 // Cores dos tipos
 function getColor(type) {
     const colors = {
-        fire: "orange",
-        water: "blue",
-        grass: "green",
-        electric: "yellow",
-        psychic: "purple",
-        dark: "gray",
-        dragon: "indigo"
+        fire: "bg-orange-500",
+        water: "bg-blue-500",
+        grass: "bg-green-500",
+        electric: "bg-yellow-400",
+        psychic: "bg-purple-500",
+        dark: "bg-gray-600",
+        dragon: "bg-indigo-600"
     };
-    return colors[type] || "gray";
+    return colors[type] || "bg-gray-500";
 }
 
 async function getPokemonNamePT(id) {
@@ -74,7 +74,7 @@ function renderPokemon(listData) {
 
     listData.forEach(p => {
         const typesHTML = p.types.map(t =>
-            `<span class="px-2 py-1 rounded text-white text-xs bg-${getColor(t)}-500">${t}</span>`
+            `<span class="px-2 py-1 rounded text-white text-xs ${getColor(t)}">`
         ).join("");
 
         list.innerHTML += `
