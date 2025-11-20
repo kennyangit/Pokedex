@@ -78,7 +78,7 @@ async function loadPokemon() {
         list.innerHTML = `
             <p class="text-red-501 text-center text-lg">
                 Erro ao carregar Pokémons. A PokeAPI pode estar instável.  
-                <br>Tente novamente em alguns segundos.
+                <br>Tente novamente mais tarde.
             </p>`;
     }
 }
