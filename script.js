@@ -53,19 +53,34 @@ async function getPokemonNamePT(id) {
 }
 
 async function loadPokemon() {
-    for (let i = 1; i <= 151; i++) {
-        const resp = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`);
-        const data = await resp.json();
+    const total = 151;
+    const urls = [];
+    for (let i = 1; i <= total; i++) {
+        urls.push(`https://pokeapi.co/api/v2/pokemon/${i}`);
+    }
 
-        allPokemon.push({
+    try {
+        const responses = await Promise.all(urls.map(url => fetch(url)));
+        const dataList = await Promise.all(responses.map(res => res.json()));
+
+        allPokemon = dataList.map(data => ({
             id: data.id,
             name: data.name,
             image: data.sprites.other["official-artwork"].front_default,
             types: data.types.map(t => t.type.name)
-        });
-    }
+        }));
 
-    renderPokemon(allPokemon);
+        renderPokemon(allPokemon);
+
+    } catch (erro) {
+        console.error("Erro ao carregar Pokémons:", erro);
+
+        list.innerHTML = `
+            <p class="text-red-500 text-center text-lg">
+                Erro ao carregar Pokémons. A PokeAPI pode estar instável.  
+                <br>Tente novamente em alguns segundos.
+            </p>`;
+    }
 }
 
 // Card do Pokemon
