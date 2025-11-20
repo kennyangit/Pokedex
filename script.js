@@ -66,8 +66,6 @@ async function loadPokemon() {
         });
     }
 
-    loading.style.display = "none";
-
     renderPokemon(allPokemon);
 }
 
