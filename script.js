@@ -1,5 +1,4 @@
 const list = document.getElementById('pokemon-list');
-const loading = document.getElementById("loading");
 const filter = document.getElementById('filter');
 const search = document.getElementById('search');
 const darkToggle = document.getElementById('darkToggle');
